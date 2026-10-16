@@ -6,7 +6,7 @@ English | [简体中文](README.md)
 
 This repository hosts Chinese subtitles (SRT format) for all 15 lectures. The number prefix `NN-` in each filename matches the Bilibili part number, so subtitles can be loaded directly with the videos.
 
-Layout: `字幕/` holds all SRT subtitles, `总结/` holds the detailed per-lecture summaries, and `通俗版/` holds their plain-language versions.
+Layout: `字幕/` holds all SRT subtitles, `总结/` holds the detailed per-lecture summaries, `通俗版/` holds their plain-language versions, and `脑图/` holds the course overview and per-lecture outline mind maps.
 
 ## Contents
 
@@ -35,6 +35,10 @@ Each lecture ships with a detailed Chinese summary (`总结/pXX-topic.md`), gene
 - Filenames match part numbers, e.g. `总结/p01-课程介绍.md` for p01.
 - Each summary also ships with a **plain-language version** (`通俗版/p01-课程介绍-通俗版.md`) that explains concepts with everyday analogies, ideal for beginners.
 - Summaries are AI-generated; please refer to the original videos for accuracy.
+
+## Knowledge-System Mind Map
+
+`脑图/几何建模与处理-知识体系.md` is a **memory-oriented Markdown outline mind map**. Independent of the lecture order, it keeps only the core concepts of geometry modeling & processing, using **keywords plus memory hooks** to form a self-contained knowledge system: **representation → construction & fitting → analysis & metrics → processing & transforms → optimization → modeling & generation**. Renderable directly, or importable into XMind and similar apps.
 
 ## Notes
 
